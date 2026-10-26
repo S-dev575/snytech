@@ -30,3 +30,14 @@
     </body>
 
 </html>
+<div class="accordion">IT Support</div>
+<div class="panel">We bring you the best IT support ever.</div>
+
+<script>
+  document.querySelectorAll(".accordion").forEach(acc => {
+    acc.addEventListener("click", () => {
+      const panel = acc.nextElementSibling;
+      panel.style.display = panel.style.display === "block" ? "none" : "block";
+    });
+  });
+</script>

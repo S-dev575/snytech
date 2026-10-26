@@ -30,3 +30,18 @@
         <pclass="text" style="font-size: medium;font-size: medium; font-style: oblique;">Our service delivery follows a structured timeline to ensure quality and transparency. In the first stage, we consult with clients to review their existing systems and identify areas for improvement. The second stage focuses on design and development, where we create external stylesheets, apply typography, and establish layouts tailored to the client’s brand identity. The third stage involves implementing responsive design, ensuring that websites and systems adapt seamlessly across desktop, tablet, and mobile devices. In the fourth stage, we conduct thorough testing and iteration, capturing evidence of performance across different platforms. Finally, the fifth stage is dedicated to documentation, training, and deployment, ensuring clients have a complete solution ready for use. This phased approach allows us to deliver projects within four to five weeks, depending on scope.</p>
     </body>
 </html>
+<input type="text" id="searchBox" placeholder="Search services...">
+<ul id="serviceList">
+  <li>Networking</li>
+  <li>IT Support</li>
+  <li>SEO</li>
+</ul>
+
+<script>
+  document.getElementById("searchBox").addEventListener("keyup", function() {
+    const filter = this.value.toLowerCase();
+    document.querySelectorAll("#serviceList li").forEach(item => {
+      item.style.display = item.textContent.toLowerCase().includes(filter) ? "" : "none";
+    });
+  });
+</script>
