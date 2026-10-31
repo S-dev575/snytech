@@ -96,3 +96,8 @@ GitHub repository with changelog and references.
 
 Live deployed site on Netlify.
 
+## Submission
+- GitHub Repository: https://github.com/username/syntech
+- Live Site: https://syntechsolutions.netlify.app
+
+
