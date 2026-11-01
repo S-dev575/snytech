@@ -98,6 +98,6 @@ Live deployed site on Netlify.
 
 ## Submission
 - GitHub Repository: https://github.com/username/syntech
-- Live Site: https://syntechsolutions.netlify.app
+- Live Site:https://6ae7347fe21812b9369345da--scintillating-alpaca-b1cc64.netlify.app/
 
 
