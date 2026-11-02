@@ -95,6 +95,45 @@ Validated enquiry and contact forms.
 GitHub repository with changelog and references.
 
 Live deployed site on Netlify.
+Additional SEO Enhancements
+Created a robots.txt file for search engine indexing instructions.
+Created a sitemap.xml file to improve website indexing.
+Improved page performance and loading speed.
+Implemented basic security measures and input validation.
+Forms and Validation
+Created an enquiry form to allow users to request information about services.
+Created a contact form for users to communicate with the organisation.
+Added HTML form validation attributes.
+Added JavaScript validation to ensure correct user input.
+Implemented validation for required fields and email addresses.
+Added user feedback messages for successful and unsuccessful form submissions.
+Additional JavaScript Features
+Implemented popup notifications.
+Added dynamic date and time display functionality.
+Added text manipulation features.
+Added interactive buttons that modify page content.
+Added functionality to show and hide additional information.
+Enhanced overall website interactivity and user experience.
+GitHub Repository Management
+Regularly committed project updates using descriptive commit messages.
+Maintained version control throughout development.
+Updated the README file with project progress and implemented features.
+Organised project files and documentation for submission.
+Publishing and Deployment
+Uploaded the latest project version to GitHub.
+Successfully deployed the website to Netlify.
+Verified that website pages are accessible online.
+Prepared submission links for both GitHub and the live website deployment.
+Skills and Technologies Used
+HTML5
+CSS3
+JavaScript
+GitHub
+GitHub Desktop
+Visual Studio Code
+Netlify
+Search Engine Optimisation (SEO)
+Implemented jQuery functionality using show/hide effects and image fade-in animations to improve website interactivity and user experience.
 
 ## Submission
 - GitHub Repository:https://github.com/S-dev575/snytech

@@ -8,11 +8,15 @@
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
       }
     
-
-
     </style>
-
     <link rel="stylesheet" href="css/style.css">
+    <script>
+$(document).ready(function(){
+    $("#imageBtn").click(function(){
+        $("#laptopImage").fadeIn();
+    });
+});
+</script>
 
     <body>
       <a class="nav" href="index.html">Home</a> 
@@ -33,6 +37,15 @@
     <p class="text" style="font-size: medium;font-style: oblique;">At Snytech Solutions, we believe technology should be an enabler, not a barrier. By combining technical expertise with customer‑focused service, we ensure that our clients experience smooth operations and long‑term success. Get started today and discover how we can transform your IT environment.</p>
     <p class="text" style="font-size: medium;font-style: oblique;">To enhance user experience, the Home page will also feature quick navigation links to Services, About Us, and Solutions & Packages. This ensures visitors can easily access detailed information without confusion, reinforcing the company’s commitment to clarity and accessibility.</p>
     
+    <button onclick="alert('Welcome to Syntech Solutions')">
+Click Me
+<button id="imageBtn">Show Image</button>
+
+<img id="laptopImage"
+src="images/Laptop.jpg"
+width="400"
+style="display:none;">
+</button>
     <body>
     </head>  
 
